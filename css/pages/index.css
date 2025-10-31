@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#main-cards {
+  flex-grow: 1; /* Preenche toda a altura */
+  width: 100dvw;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#main-cards section {
+  min-width: 100dvw;
+  max-width: 100dvw;
+  overflow: auto;
+}
+
+#main-cards section h2 {
+  color: var(--accent-color-5);
+}
+
+#main-cards #div-cards-navigation-buttons {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 100%;
+  align-items: center;
+}
